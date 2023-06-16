@@ -6,7 +6,11 @@
 body {
   margin: 0;
   padding: 0;
-  background: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1578354985657-65776ee4ae90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjUxfHxiYXNrZXRiYWxsfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
   font-family: "Cursed Timer ULiL";
 }
 .outer-container {
@@ -14,8 +18,7 @@ body {
   flex-direction: column;
   width: 575px;
   height: 385px;
-  margin: 20px auto auto;
-  background: #1b244a;
+  background: rgb(27, 36, 74, 0.7);
   padding: 5px;
   padding-bottom: 60px;
 }
